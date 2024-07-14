@@ -9,9 +9,6 @@ export default {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        serif: ['PlayfairDisplay', ...defaultTheme.fontFamily.serif],
-      },
     },
   },
   plugins: [require('daisyui')],
