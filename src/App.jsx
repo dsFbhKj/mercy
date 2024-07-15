@@ -1,7 +1,7 @@
-import './styles/Landing.module.css';
+import styles from './styles/Landing.module.css';
 import song from '/assets/song.mp4';
 import bckg from '/assets/bckg.png';
-import Main from './components/Main'
+import Main from './components/Main';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <div className='hero'>
             <div className='hero-content flex-col lg:flex-row-reverse' />
 
-            <div>
+            <div className={styles.wrapper}>
               <h1 className='text-5xl font-bold whitespace-nowrap'>
                 Happy Birthday Mercy
               </h1>
@@ -40,7 +40,10 @@ function App() {
               </p>
 
               <Main />
-              
+            </div>
+            <div className={styles.warningMessage}>
+              For optimal viewing, please use a desktop or tablet. This website
+              is only viewable in landscape mode on this device.
             </div>
           </div>
         </div>

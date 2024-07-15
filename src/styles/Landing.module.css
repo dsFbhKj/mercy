@@ -1,0 +1,22 @@
+.warningMessage {
+  display: none;
+  z-index: 1500;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    display: none;
+    z-index: 1500;
+  }
+
+  .warningMessage {
+    display: block;
+    background-color:rgb(110, 110, 110);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .warningMessage {
+    display: none;
+  }
+}
