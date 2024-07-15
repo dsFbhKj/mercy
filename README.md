@@ -31,4 +31,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Deployment
 
 This website is deployed through [Vercel](https://vercel.com/)
-
