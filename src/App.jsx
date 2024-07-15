@@ -1,6 +1,7 @@
 import './styles/Landing.module.css';
 import song from '/assets/song.mp4';
 import bckg from '/assets/bckg.png';
+import Main from './components/Main'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <h1 className='text-5xl font-bold whitespace-nowrap'>
                 Happy Birthday Mercy
               </h1>
+
               <div className='card space-x-4 mb-5 mt-10'>
                 <figure className='w-full'>
                   <video
@@ -30,12 +32,15 @@ function App() {
                   />
                 </figure>
               </div>
+
               <p className='py-6'>
                 This is a special birthday website dedicated to Mercy. It
                 showcases a captivating 3D art gallery with stunning photographs
                 highlighting her special moments.
               </p>
-              <button className='btn btn-primary'>Get Started</button>
+
+              <Main />
+              
             </div>
           </div>
         </div>

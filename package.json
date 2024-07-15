@@ -10,8 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pmndrs/branding": "^0.0.8",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
+    "@types/three": "^0.166.0",
+    "maath": "^0.10.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "three": "^0.166.1",
+    "uuid-by-string": "^4.0.0",
+    "wouter": "^3.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
